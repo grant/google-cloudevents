@@ -19,7 +19,7 @@
     "value": {
       "$ref": "#/definitions/Document",
       "additionalProperties": true,
-      "description": "A Document object containing a post-operation document snapshot.\n This is not populated for delete events. (TODO: check this!)"
+      "description": "A Document object containing a post-operation document snapshot.\n This is not populated for delete events."
     },
     "oldValue": {
       "$ref": "#/definitions/Document",
@@ -49,7 +49,7 @@
       "properties": {
         "name": {
           "type": "string",
-          "description": "The resource name of the document, for example\n `projects/{project_id}/databases/{database_id}/documents/{document_path}`."
+          "description": "The resource name of the document. For example:\n `projects/{project_id}/databases/{database_id}/documents/{document_path}`"
         },
         "fields": {
           "additionalProperties": {
